@@ -1,0 +1,12 @@
+kubectl delete all --all
+kubectl apply -f .\sample-pat.yml
+kubectl get all 
+kubectl delete pods 
+kubectl delete deployment client-deployment // 
+kubectl apply -f .
+http://localhost:30001/
+http://localhost:30002/api/health
+http://localhost:30002/api/todo 
+docker pull mongo
+kubectl apply -f .\mongo-deployment.yml
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.11.2/deploy/static/provider/cloud/deploy.yaml
